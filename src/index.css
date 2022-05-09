@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: "Josefin Sans", sans-serif;
-  background-color: rgba(44, 44, 44);
+  /* background-color: rgba(44, 44, 44); */
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
   width: 100vw;
@@ -79,11 +79,30 @@ header ul li:hover {
 }
 
 /* MIDDLEBAR AREA*/
+h3 {
+  text-align: center;
+  color: black;
+  margin-bottom: 0.5rem;
+}
 .middleBarDiv {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   background-color: white;
+  padding: 1rem 2rem 2rem 2rem;
+}
+
+.carouselDiv {
+  padding: 1rem;
+  color: black;
+  height: 7rem;
+  width: 19rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(64, 64, 64, 0.5), 0 0 5px rgb(64, 64, 64, 0.5);
+}
+
+h4 {
+  margin: 0.5rem 0;
 }
 
 /* FOOTER AREA*/

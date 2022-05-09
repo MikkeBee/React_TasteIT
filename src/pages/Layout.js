@@ -5,11 +5,11 @@ import Main from "../components/Main";
 
 const Layout = () => {
   return (
-    <>
+    <div className="layoutDiv">
       <Header />
       <Main />
       <Footer />
-    </>
+    </div>
   );
 };
 

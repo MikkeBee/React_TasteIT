@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: "Josefin Sans", sans-serif;
+  background-color: rgba(44, 44, 44);
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
   width: 100vw;
@@ -10,18 +11,31 @@ h1 {
   font-size: 3rem;
 }
 
+.layoutDiv {
+  position: relative;
+}
+
 header {
-  background-color: rgba(44, 44, 44, 0.8);
-  padding: 1rem;
+  /* background-color: rgba(44, 44, 44, 0.4); */
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
   max-width: 100%;
+  z-index: 1;
+  right: 0;
+  margin: 1rem;
+}
+
+nav {
+  margin-right: 2rem;
+  position: relative;
 }
 
 nav ul {
   display: flex;
   justify-content: flex-end;
+  margin-left: 1rem;
 }
 
 header ul li {
@@ -40,6 +54,7 @@ header ul li {
 header ul li a {
   text-decoration: none;
   color: whitesmoke;
+
   transition: 1s;
 }
 
@@ -48,17 +63,19 @@ header ul li:hover {
   transition: 1s;
 }
 
-main {
-  padding: 2rem;
-  min-height: calc(65vh - 2rem);
-}
-
 footer {
   color: whitesmoke;
   display: flex;
   justify-content: center;
   background-color: rgba(44, 44, 44, 0.9);
-  padding-top: 2.5rem;
-  padding-bottom: 2rem;
+  padding-top: 2.3rem;
+  padding-bottom: 1.8rem;
   font-family: "Josefin Sans", sans-serif;
+}
+
+.pizzaVideo {
+  position: 50% 70%;
+  width: 100%;
+  object-fit: fill;
+  filter: grayscale(0.8) brightness(0.9);
 }

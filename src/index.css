@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  width: 100vw;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+header {
+  background-color: rgba(44, 44, 44, 0.8);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header ul li {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 5px rgb(14, 14, 14), 2px 2px 5px rgb(14, 14, 14),
+    2px 2px 5px rgb(14, 14, 14);
+  list-style: none;
+  padding: 1rem;
+}
+
+/* a:visited {
+    color: green;
+  } */
+
+header ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+  transition: 1s;
+}
+
+header ul li:hover {
+  transform: scale(120%);
+  transition: 1s;
+}
+
+main {
+  padding: 2rem;
+  min-height: calc(65vh - 2rem);
+}
+
+footer {
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(44, 44, 44, 0.9);
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+}

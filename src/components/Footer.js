@@ -3,7 +3,13 @@ import React from "react";
 const Footer = () => {
   return (
     <footer>
-      <p>©️ Mikke, May 2022</p>
+      <p>
+        ©️{" "}
+        <a href="https://github.com/MikkeBee" target="_blank">
+          Mikke
+        </a>
+        , May 2022
+      </p>
     </footer>
   );
 };

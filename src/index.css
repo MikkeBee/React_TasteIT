@@ -5,6 +5,7 @@ body {
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
   width: 100vw;
+  color: whitesmoke;
 }
 
 h1 {
@@ -30,6 +31,16 @@ header {
 nav {
   margin-right: 2rem;
   position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  margin-left: 5rem;
+}
+
+nav div h1 {
+  text-shadow: 2px 2px 5px rgb(14, 14, 14), 2px 2px 5px rgb(14, 14, 14),
+    2px 2px 5px rgb(14, 14, 14);
 }
 
 nav ul {
@@ -47,14 +58,9 @@ header ul li {
   padding: 1rem;
 }
 
-/* a:visited {
-    color: green;
-  } */
-
 header ul li a {
   text-decoration: none;
   color: whitesmoke;
-
   transition: 1s;
 }
 
@@ -63,19 +69,34 @@ header ul li:hover {
   transition: 1s;
 }
 
-footer {
-  color: whitesmoke;
-  display: flex;
-  justify-content: center;
-  background-color: rgba(44, 44, 44, 0.9);
-  padding-top: 2.3rem;
-  padding-bottom: 1.8rem;
-  font-family: "Josefin Sans", sans-serif;
-}
+/* MAIN AREA*/
 
 .pizzaVideo {
   position: 50% 70%;
   width: 100%;
-  object-fit: fill;
-  filter: grayscale(0.8) brightness(0.9);
+  object-fit: cover;
+  filter: grayscale(0.6) brightness(0.8);
+}
+
+/* MIDDLEBAR AREA*/
+.middleBarDiv {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+}
+
+/* FOOTER AREA*/
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(44, 44, 44, 0.9);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+footer a {
+  color: whitesmoke;
+  text-decoration: none;
 }

@@ -1,0 +1,33 @@
+{
+  "recipes": [
+    {
+      "name": "hamburger",
+      "author": "Mikke",
+      "origin": "i dunno man",
+      "description": "Mmmm, burgers",
+      "imageURL": "https://insanelygoodrecipes.com/wp-content/uploads/2020/10/Hamburger-with-Sesame-Seeds-Cheese-and-Veggies.png",
+      "ingredients": [
+        { "quantity": "200g", "ingredient": "jauheliha" },
+        { "quantity": "1 piece", "ingredient": "burger bun" },
+        { "quantity": "1 slice", "ingredient": "cheddar cheese" }
+      ],
+      "instructions": "Make a burger from meat. Cook it. Put cheese slice on top. Put between burger bun and enjoy.",
+      "id": 1
+    },
+    {
+      "name": "pizza",
+      "author": "Mikke",
+      "origin": "Italia",
+      "description": "Mmmm, pizza",
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Supreme_pizza.jpg/800px-Supreme_pizza.jpg",
+      "ingredients": [
+        { "quantity": "200g", "ingredient": "pizza dough" },
+        { "quantity": "1 can", "ingredient": "pizza sauce" },
+        { "quantity": "1 bag", "ingredient": "mozzarella" },
+        { "quantity": "100g", "ingredient": "other toppings" }
+      ],
+      "instructions": "Make a pizza from the pizza dough. Thrown all of the stuff on top in the right order. Pop it into the oven and bake it. Take it out and enjoy!",
+      "id": 2
+    }
+  ]
+}

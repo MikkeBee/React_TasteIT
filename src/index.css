@@ -22,7 +22,7 @@ nav div a {
 }
 
 header {
-  /* background-color: rgba(44, 44, 44, 0.4); */
+  background-color: rgba(44, 44, 44, 0.8);
   position: fixed;
   display: flex;
   align-items: center;
@@ -30,7 +30,6 @@ header {
   max-width: 100%;
   z-index: 1;
   right: 0;
-  margin: 1rem;
 }
 
 nav {
@@ -46,6 +45,7 @@ nav {
 nav div h1 {
   text-shadow: 2px 2px 5px rgb(14, 14, 14), 2px 2px 5px rgb(14, 14, 14),
     2px 2px 5px rgb(14, 14, 14);
+  margin: 1.5rem 0 1rem 0;
 }
 
 nav ul {
@@ -76,11 +76,33 @@ header ul li:hover {
 
 /* MAIN AREA*/
 
+.videoContainer {
+  position: relative;
+}
+
 .pizzaVideo {
   position: 50% 70%;
   width: 100%;
   object-fit: cover;
   filter: grayscale(0.6) brightness(0.8);
+}
+
+.pizzaToppings {
+  position: absolute;
+  left: 4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  text-shadow: 2px 2px 5px rgb(14, 14, 14), 2px 2px 5px rgb(14, 14, 14),
+    2px 2px 5px rgb(14, 14, 14);
+}
+
+.upperCrust {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.deepDish {
+  font-size: 1.2rem;
 }
 
 /* MIDDLEBAR AREA*/

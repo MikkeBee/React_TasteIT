@@ -74,7 +74,7 @@ header ul li:hover {
   transition: 1s;
 }
 
-/* MAIN AREA*/
+/* MAIN AREA VIDEO*/
 
 .videoContainer {
   position: relative;
@@ -103,6 +103,28 @@ header ul li:hover {
 
 .deepDish {
   font-size: 1.2rem;
+}
+
+/* MAIN AREA RECIPES*/
+.recipeGallery {
+  padding: 8rem 0 3rem 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.galleryCard {
+  width: 20rem;
+  height: 15rem;
+  background-color: aqua;
+  margin: 1.5rem;
+  padding: 1rem;
+}
+
+.galleryImage {
+  width: 19rem;
+  height: 10rem;
+  object-fit: cover;
 }
 
 /* MIDDLEBAR AREA*/
@@ -142,10 +164,13 @@ h2 {
 footer {
   display: flex;
   justify-content: center;
-  background-color: rgba(44, 44, 44, 0.9);
+  background-color: rgba(44, 44, 44);
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-family: "Josefin Sans", sans-serif;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
 }
 
 footer a {

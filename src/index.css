@@ -22,7 +22,7 @@ nav div a {
 }
 
 header {
-  background-color: rgba(44, 44, 44, 0.8);
+  background-color: rgba(44, 44, 44, 0.9);
   position: fixed;
   display: flex;
   align-items: center;
@@ -107,18 +107,24 @@ header ul li:hover {
 
 /* MAIN AREA RECIPES*/
 .recipeGallery {
-  padding: 8rem 0 3rem 0;
+  padding: 6rem 0 3rem 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
+  margin-bottom: 3rem;
 }
 
 .galleryCard {
-  width: 20rem;
+  width: 19rem;
   height: 15rem;
-  background-color: aqua;
   margin: 1.5rem;
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(64, 64, 64, 0.5), 0 0 5px rgb(64, 64, 64, 0.5);
+  overflow: hidden;
 }
 
 .galleryImage {
@@ -127,7 +133,32 @@ header ul li:hover {
   object-fit: cover;
 }
 
+.galleryInfo {
+  width: 20rem;
+  color: black;
+}
+
+.galleryInfo h2 {
+  margin: 0.6rem 0;
+}
+
+.galleryInfo p {
+  padding: 0 0.5rem;
+  text-align: left;
+  margin: 0.5rem 0;
+}
+
+.galleryInfo a {
+  color: rgb(157, 14, 121);
+  text-decoration: none;
+  padding: 0 0.5rem;
+}
+
 /* MIDDLEBAR AREA*/
+.middleBar {
+  margin-bottom: 5rem;
+}
+
 h2 {
   text-align: center;
   color: black;
@@ -160,6 +191,12 @@ h2 {
   text-decoration: none;
 }
 
+/* RECIPE CARD AREA*/
+
+.recipeCard {
+  margin-top: 5rem;
+}
+
 /* FOOTER AREA*/
 footer {
   display: flex;
@@ -168,7 +205,7 @@ footer {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-family: "Josefin Sans", sans-serif;
-  position: sticky;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
@@ -176,4 +213,10 @@ footer {
 footer a {
   color: whitesmoke;
   text-decoration: none;
+}
+
+.loading {
+  margin-top: 0;
+  padding-top: 10rem;
+  color: black;
 }

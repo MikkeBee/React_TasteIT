@@ -24,7 +24,7 @@ const Recipes = () => {
           <div className="galleryInfo">
             <h2>{recipe.name}</h2>
             <p>{recipe.description}</p>
-            <Link to={`/recipes/${recipe.id}`}>See more</Link>
+            <Link to={`/recipes/${recipe.name}`}>See more</Link>
           </div>
         </div>
       ))}

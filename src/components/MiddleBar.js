@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const MiddleBar = () => {
   return (
-    <div>
+    <div className="middleBar">
       <h2>Looking for something?</h2>
       <div className="middleBarDiv">
         <div className="carouselDiv">

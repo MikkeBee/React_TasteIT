@@ -30,7 +30,7 @@
       "id": 2
     },
     {
-      "name": "hamburger",
+      "name": "carrots",
       "author": "Mikke",
       "origin": "i dunno man",
       "description": "Mmmm, burgers",
@@ -44,7 +44,7 @@
       "id": 3
     },
     {
-      "name": "pizza",
+      "name": "pasta",
       "author": "Mikke",
       "origin": "Italia",
       "description": "Mmmm, pizza",
@@ -59,7 +59,7 @@
       "id": 4
     },
     {
-      "name": "hamburger",
+      "name": "burrito",
       "author": "Mikke",
       "origin": "i dunno man",
       "description": "Mmmm, burgers",
@@ -73,7 +73,7 @@
       "id": 5
     },
     {
-      "name": "pizza",
+      "name": "soup",
       "author": "Mikke",
       "origin": "Italia",
       "description": "Mmmm, pizza",
@@ -88,7 +88,7 @@
       "id": 6
     },
     {
-      "name": "hamburger",
+      "name": "green curry",
       "author": "Mikke",
       "origin": "i dunno man",
       "description": "Mmmm, burgers",
@@ -102,7 +102,7 @@
       "id": 7
     },
     {
-      "name": "pizza",
+      "name": "sushi",
       "author": "Mikke",
       "origin": "Italia",
       "description": "Mmmm, pizza",
@@ -117,7 +117,7 @@
       "id": 8
     },
     {
-      "name": "hamburger",
+      "name": "sandwich",
       "author": "Mikke",
       "origin": "i dunno man",
       "description": "Mmmm, burgers",
@@ -131,7 +131,7 @@
       "id": 9
     },
     {
-      "name": "pizza",
+      "name": "smoked salmon",
       "author": "Mikke",
       "origin": "Italia",
       "description": "Mmmm, pizza",
@@ -146,7 +146,7 @@
       "id": 10
     },
     {
-      "name": "hamburger",
+      "name": "hotdogs",
       "author": "Mikke",
       "origin": "i dunno man",
       "description": "Mmmm, burgers",
@@ -160,7 +160,7 @@
       "id": 11
     },
     {
-      "name": "pizza",
+      "name": "nacho platter",
       "author": "Mikke",
       "origin": "Italia",
       "description": "Mmmm, pizza",

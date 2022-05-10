@@ -9,7 +9,6 @@ const Layout = () => {
     <div className="layoutDiv">
       <Header />
       <Main />
-      <MiddleBar />
       <Footer />
     </div>
   );

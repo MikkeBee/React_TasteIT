@@ -4,12 +4,17 @@ body {
   /* background-color: rgba(44, 44, 44); */
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
-  width: 100vw;
+  width: 100%;
   color: whitesmoke;
 }
 
 h1 {
   font-size: 3rem;
+  color: whitesmoke;
+}
+
+nav div a {
+  text-decoration: none;
 }
 
 .layoutDiv {
@@ -79,10 +84,10 @@ header ul li:hover {
 }
 
 /* MIDDLEBAR AREA*/
-h3 {
+h2 {
   text-align: center;
   color: black;
-  margin-bottom: 0.5rem;
+  margin: 1.5rem 0 1rem 0;
 }
 .middleBarDiv {
   display: flex;
@@ -101,8 +106,14 @@ h3 {
   box-shadow: 0 0 5px rgb(64, 64, 64, 0.5), 0 0 5px rgb(64, 64, 64, 0.5);
 }
 
-h4 {
+.carouselDiv h3 {
+  text-align: left;
   margin: 0.5rem 0;
+}
+
+.carouselDiv a {
+  color: rgb(157, 14, 121);
+  text-decoration: none;
 }
 
 /* FOOTER AREA*/

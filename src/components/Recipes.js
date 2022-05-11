@@ -1,17 +1,7 @@
 import React from "react";
-import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import axios from "axios";
 
-const Recipes = () => {
-  const [recipes, setRecipes] = useState([]);
-
-  useEffect(() => {
-    axios.get("http://localhost:3011/recipes").then((res) => {
-      setRecipes(res.data);
-    });
-  }, []);
-
+const Recipes = ({ recipes }) => {
   return (
     <div className="recipeGallery">
       {recipes.map((recipe) => (

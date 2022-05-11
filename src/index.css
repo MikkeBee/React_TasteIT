@@ -194,7 +194,61 @@ h2 {
 /* RECIPE CARD AREA*/
 
 .recipeCard {
-  margin-top: 5rem;
+  margin: auto;
+  padding: 8rem;
+  color: black;
+}
+
+.recipeInfo {
+  display: flex;
+  align-items: flex-start;
+}
+
+.recipeInfo div:nth-child(2) {
+  padding: 0 3rem;
+}
+
+.recipeTitle {
+  color: black;
+  margin-top: 0;
+}
+
+.recipeImage {
+  height: 12rem;
+  width: 21rem;
+  object-fit: cover;
+  box-shadow: 0 0 5px black;
+}
+
+.divider {
+  position: relative;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  height: 0.1rem;
+}
+
+.dividerBar:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5%;
+  right: 5%;
+  width: 90%;
+  height: 0.1rem;
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    rgb(20, 20, 20),
+    transparent
+  );
+}
+
+.cardBottom {
+  display: flex;
+}
+
+.cardBottom div {
+  padding: 0 2rem 0 0;
 }
 
 /* FOOTER AREA*/

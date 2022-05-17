@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Recipes = ({ recipes }) => {
+const Recipes = ({ recipes, countries }) => {
   return (
     <div className="recipeGallery">
       {recipes.map((recipe) => (
@@ -10,6 +10,11 @@ const Recipes = ({ recipes }) => {
             className="galleryImage"
             src={recipe.imageUrl}
             alt={recipe.name}
+          />
+          <img
+            src={countries.find(
+              (country) => country.alpha2Code === recipe.origin
+            )}
           />
           <div className="galleryInfo">
             <h2>{recipe.name}</h2>

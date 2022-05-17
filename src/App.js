@@ -10,6 +10,7 @@ import axios from "axios";
 
 function App() {
   const [recipes, setRecipes] = useState([]);
+  const [countries, setCountry] = useState([]);
 
   useEffect(() => {
     axios.get("http://localhost:3011/recipes").then((res) => {
@@ -17,13 +18,26 @@ function App() {
     });
   }, []);
 
+  useEffect(() => {
+    axios.get("https://restcountries.com/v2/all").then((res) => {
+      setCountry(res.data);
+    });
+    console.log(countries);
+  }, []);
+
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="recipes" element={<Recipes recipes={recipes} />} />
-          <Route path="addarecipe" element={<AddaRecipe />} />
+          <Route
+            path="recipes"
+            element={<Recipes recipes={recipes} countries={countries} />}
+          />
+          <Route
+            path="addarecipe"
+            element={<AddaRecipe countries={countries} />}
+          />
           <Route
             path="recipes/:name"
             element={<RecipeCard recipes={recipes} />}

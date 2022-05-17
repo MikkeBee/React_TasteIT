@@ -11,11 +11,9 @@ const Recipes = ({ recipes, countries }) => {
             src={recipe.imageUrl}
             alt={recipe.name}
           />
-          <img
-            src={countries.find(
-              (country) => country.alpha2Code === recipe.origin
-            )}
-          />
+          {/* <img
+            src={countries.find((country) => country.name === recipe.origin)}
+          /> */}
           <div className="galleryInfo">
             <h2>{recipe.name}</h2>
             <p>{recipe.description}</p>

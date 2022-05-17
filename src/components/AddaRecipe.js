@@ -22,63 +22,111 @@ const AddaRecipe = ({ countries }) => {
     setRecipe({ ...recipe, [e.target.name]: e.target.value });
   };
 
+  const ingChangeHandler = (e, index) => {
+    const { name, value } = e.target;
+    const list = [...ingredients];
+    list[index][name] = value;
+    setIngredients(list);
+    setRecipe({ ...recipe, ingredients: ingredients });
+  };
+
+  const addIng = (e) => {
+    e.preventDefault();
+
+    setIngredients([
+      ...ingredients,
+      {
+        quantity: "",
+        ingredient: "",
+      },
+    ]);
+  };
+
   const submitHandler = () => {
     axios.post("http://localhost:3011/recipes", recipe);
   };
 
   return (
-    <section onChange={changeHandler} onSubmit={submitHandler}>
+    <section onSubmit={submitHandler}>
       <form>
         <div className="formDiv">
-          <p>
-            <label>Name</label>
-            <label>Author</label>
-            <label>Recipe origin</label>
-            <label>Image URL</label>
-            <label>Description</label>
-            <label>Instructions</label>
-          </p>
-          <p>
-            <input
-              type="text"
-              className="foodName"
-              name="name"
-              placeholder="Recipe name"
-            />
-            <input
-              type="text"
-              className="theAuthor"
-              name="author"
-              placeholder="Who made this recipe"
-            />
-            <select
-              type="text"
-              className="theOrigin"
-              name="origin"
-              placeholder="The recipe's origin"
-            >
-              {countries.map((country) => (
-                <option key={country.name}>{country.name}</option>
-              ))}
-            </select>
-            <input
-              type="text"
-              className="imgURL"
-              name="image"
-              placeholder="Insert image URL"
-            />
-            <input
-              type="text"
-              className="theDescription"
-              name="description"
-              placeholder="Give a short description of the recipe"
-            />
-            <textarea
-              name="instructions"
-              className="theInstructions"
-              placeholder="Recipe instructions"
-            />
-          </p>
+          <label>Name</label>
+          <input
+            type="text"
+            className="foodName"
+            name="name"
+            placeholder="Recipe name"
+            onChange={changeHandler}
+          />
+          <label>Author</label>
+          <input
+            type="text"
+            className="theAuthor"
+            name="author"
+            placeholder="Who made this recipe"
+            onChange={changeHandler}
+          />{" "}
+          <label>Recipe origin</label>
+          <select
+            type="text"
+            className="theOrigin"
+            name="origin"
+            onChange={changeHandler}
+          >
+            <option selected disabled hidden>
+              Select a country
+            </option>
+            {countries.map((country) => (
+              <option key={country.name}>{country.name}</option>
+            ))}
+          </select>
+          <label>Image URL</label>
+          <input
+            type="text"
+            className="imgURL"
+            name="imageUrl"
+            placeholder="Insert image URL"
+            onChange={changeHandler}
+          />
+          <label>Description</label>
+          <input
+            type="text"
+            className="theDescription"
+            name="description"
+            placeholder="Give a short description of the recipe"
+            onChange={changeHandler}
+          />
+          <label>Ingredients</label>
+          {ingredients.map((ingredient, index) => {
+            return (
+              <p key={index} className="ingP">
+                <input
+                  type="text"
+                  className="theMeasurement"
+                  name="quantity"
+                  placeholder="Measurement"
+                  onChange={(e) => ingChangeHandler(e, index)}
+                />
+                <input
+                  type="text"
+                  className="theIngredient"
+                  name="ingredient"
+                  placeholder="Ingredient"
+                  onChange={(e) => ingChangeHandler(e, index)}
+                />
+              </p>
+            );
+          })}
+          <button className="moreIng" onClick={addIng}>
+            Add more ingredients
+          </button>
+          <label>Instructions</label>
+          <textarea
+            name="instructions"
+            className="theInstructions"
+            placeholder="Recipe instructions"
+            onChange={changeHandler}
+          />
         </div>
         <button type="submit">Add recipe</button>
       </form>

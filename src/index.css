@@ -290,7 +290,19 @@ label {
   color: black;
 }
 
+.buttons {
+  margin: 0 0.5rem 0.5rem 0;
+}
+
 .moreIng {
+  width: 6rem;
+  height: 2.3rem;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+.removeBtn {
   width: 6rem;
   height: 2.3rem;
   font-size: 0.8rem;
@@ -303,11 +315,11 @@ label {
 
 .theIngredient {
   width: 9.5rem !important;
-  margin-right: 0.5rem;
 }
 
 .theMeasurement {
   width: 9.5rem !important;
+  margin-right: 0.5rem;
 }
 
 form button {

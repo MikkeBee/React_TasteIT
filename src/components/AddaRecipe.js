@@ -42,6 +42,13 @@ const AddaRecipe = ({ countries }) => {
     ]);
   };
 
+  const removeIng = (e, index) => {
+    e.preventDefault();
+    const list = [...ingredients];
+    list.splice(index, 1);
+    setIngredients(list);
+  };
+
   const submitHandler = () => {
     axios.post("http://localhost:3011/recipes", recipe);
   };
@@ -117,9 +124,16 @@ const AddaRecipe = ({ countries }) => {
               </p>
             );
           })}
-          <button className="moreIng" onClick={addIng}>
-            Add more ingredients
-          </button>
+          <p className="buttons">
+            <button className="moreIng" onClick={addIng}>
+              Add more ingredients
+            </button>
+            {ingredients.length > 1 && (
+              <button className="removeBtn" onClick={(e) => removeIng(e)}>
+                Remove ingredient
+              </button>
+            )}
+          </p>
           <label>Instructions</label>
           <textarea
             name="instructions"

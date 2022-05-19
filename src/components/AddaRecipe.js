@@ -53,6 +53,8 @@ const AddaRecipe = ({ countries }) => {
     axios.post("http://localhost:3011/recipes", recipe);
   };
 
+  console.log(countries);
+
   return (
     <section onSubmit={submitHandler}>
       <form>
@@ -106,7 +108,7 @@ const AddaRecipe = ({ countries }) => {
           <label>Ingredients</label>
           {ingredients.map((ingredient, index) => {
             return (
-              <p key={index} className="ingP">
+              <div key={index} className="ingP">
                 <input
                   type="text"
                   className="theMeasurement"
@@ -121,10 +123,10 @@ const AddaRecipe = ({ countries }) => {
                   placeholder="Ingredient"
                   onChange={(e) => ingChangeHandler(e, index)}
                 />
-              </p>
+              </div>
             );
           })}
-          <p className="buttons">
+          <div className="buttons">
             <button className="moreIng" onClick={addIng}>
               Add more ingredients
             </button>
@@ -133,7 +135,7 @@ const AddaRecipe = ({ countries }) => {
                 Remove ingredient
               </button>
             )}
-          </p>
+          </div>
           <label>Instructions</label>
           <textarea
             name="instructions"

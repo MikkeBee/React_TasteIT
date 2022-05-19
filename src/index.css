@@ -107,11 +107,25 @@ header ul li:hover {
 
 /* MAIN AREA RECIPES*/
 .recipeGallery {
-  padding: 6rem 0 3rem 0;
+  padding: 2rem 0 2rem 0;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin-bottom: 3rem;
+}
+
+.searchBarContainer {
+  margin-top: 0;
+  padding-top: 8rem;
+  display: flex;
+  justify-content: center;
+}
+
+.searchBar {
+  width: 15rem;
+  height: 2rem;
+  border-radius: 5px;
+  border-width: thin;
 }
 
 .galleryCard {
@@ -125,6 +139,16 @@ header ul li:hover {
   border-radius: 5px;
   box-shadow: 0 0 5px rgb(64, 64, 64, 0.5), 0 0 5px rgb(64, 64, 64, 0.5);
   overflow: hidden;
+}
+
+.flagContainer {
+}
+
+.flagBall {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .galleryImage {
@@ -291,7 +315,7 @@ label {
 }
 
 .buttons {
-  margin: 0 0.5rem 0.5rem 0;
+  margin: 0 0.5rem 0 0;
 }
 
 .moreIng {

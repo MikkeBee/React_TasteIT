@@ -35,11 +35,13 @@ const Recipes = ({ recipes, countries }) => {
       <div className="recipeGallery">
         {searchResults().map((recipe) => (
           <div key={recipe.id} className="galleryCard">
-            <img
-              className="galleryImage"
-              src={recipe.imageUrl}
-              alt={recipe.name}
-            />
+            <Link to={`/recipes/${recipe.name}`}>
+              <img
+                className="galleryImage"
+                src={recipe.imageUrl}
+                alt={recipe.name}
+              />
+            </Link>
             <div className="flagContainer">{getFlag(recipe.origin)}</div>
             <div className="galleryInfo">
               <h2>{recipe.name}</h2>

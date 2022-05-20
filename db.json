@@ -1,74 +1,405 @@
 {
   "recipes": [
     {
-      "name": "Kalakeitto",
-      "author": "Joku",
-      "origin": "Finland",
-      "description": "Kalakeitto on välillä ihan jees",
-      "ingredients": [],
-      "instructions": "Pistä kaikki kattilaan ja keittää. Nauti. ",
-      "imageUrl": "https://cdn.valio.fi/mediafiles/58a92875-5879-403b-944c-9346b9a07bf3/1440x1080-recipe-hero/4x3/kalakeitto.jpg",
-      "id": 14
-    },
-    {
-      "name": "Mikke",
-      "author": "Äiti",
-      "origin": "Albania",
-      "description": "It's goooood",
-      "ingredients": [],
-      "instructions": "adfadgag",
-      "imageUrl": "https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/DCTM_Penguin_UK_DK_AL644648_p7nd0z.jpg",
-      "id": 15
-    },
-    {
-      "name": "Herkkuja",
-      "author": "Joku",
-      "origin": "Malaysia",
-      "description": "yummy",
+      "name": "Chicken avocado burrito wraps",
+      "author": "unknown",
+      "origin": "United States of America",
+      "description": "These burritos are very easy to make and can be prepared ahead of time.",
       "ingredients": [
         {
-          "quantity": "5dl",
-          "ingredient": "sokeria"
+          "quantity": "2 cups",
+          "ingredient": "cooked chicken"
         },
         {
-          "quantity": "2tsp",
-          "ingredient": "mausteita"
-        }
-      ],
-      "instructions": "Soooo gooood",
-      "imageUrl": "https://static.dw.com/image/16749891_303.jpg",
-      "id": 16
-    },
-    {
-      "name": "Tacos",
-      "author": "Mikke",
-      "origin": "Mexico",
-      "description": "Taco Tuesday",
-      "ingredients": [
+          "quantity": "1/2 cup",
+          "ingredient": "Mexican cheese or mozzarella"
+        },
         {
           "quantity": "1",
-          "ingredient": "tortilla"
+          "ingredient": "diced avocado"
         },
         {
-          "quantity": "100g",
-          "ingredient": "jauhelihaa"
+          "quantity": "2 tbsp",
+          "ingredient": "chopped coriander"
         },
         {
-          "quantity": "50g",
-          "ingredient": "cheese"
+          "quantity": "4",
+          "ingredient": "tortillas"
+        },
+        {
+          "quantity": "1 tbsp",
+          "ingredient": "oil"
         }
       ],
-      "instructions": "Add it all together and enjoy!",
-      "id": 17
+      "instructions": "1. Mix the shredded chicken, cheese, cilantro, and the diced avocados.\n\n2. Lay a tortilla flat on a plate and add 1/4 of the mixture, form a roll. repeat the process for all four tortillas.\n\n3. Pour 1 tablespoon oil into a heated pan or griddle. Place all four tortillas on the pan and cook for 2 minutes on medium- high heat. Flip on the other side and cook for another minutes or until the the burritos are golden in color. Serve warm.",
+      "imageUrl": "https://gimmedelicious.com/wp-content/uploads/2014/01/Quick-and-Easy-Chicken-Burritos-with-Sour-cream-Cilantro-Sauce-8.jpg",
+      "id": 1
     },
     {
-      "name": "",
-      "author": "",
-      "origin": "",
-      "description": "",
-      "ingredients": [],
-      "instructions": "",
-      "id": 18
+      "name": "Creamy Crockpot White Chicken Chili",
+      "author": "The Chunky Chef",
+      "origin": "United States of America",
+      "description": "Dump everything in your slow cooker and let it do the hard work for you!",
+      "ingredients": [
+        {
+          "quantity": "1 lb / .450kg",
+          "ingredient": "chicken breasts"
+        },
+        {
+          "quantity": "1 onion",
+          "ingredient": "diced onion"
+        },
+        {
+          "quantity": "2 cloves",
+          "ingredient": "garlic, minced"
+        },
+        {
+          "quantity": "24oz / 7.1dl",
+          "ingredient": "chicken broth"
+        },
+        {
+          "quantity": "2 15oz / 425g cans",
+          "ingredient": "Northern beans"
+        },
+        {
+          "quantity": "2 4oz / 113g cans",
+          "ingredient": "diced green chiles"
+        },
+        {
+          "quantity": "1 15oz / 425g can",
+          "ingredient": "corn"
+        },
+        {
+          "quantity": "1 tsp",
+          "ingredient": "salt"
+        },
+        {
+          "quantity": "1/2 tsp",
+          "ingredient": "black pepper"
+        },
+        {
+          "quantity": "1 tsp",
+          "ingredient": "cumin"
+        },
+        {
+          "quantity": "3/4 tsp",
+          "ingredient": "oregano"
+        },
+        {
+          "quantity": "1/2 tsp",
+          "ingredient": "chili powder"
+        },
+        {
+          "quantity": "1/4 tsp",
+          "ingredient": "cayenne pepper"
+        },
+        {
+          "quantity": "small handfull",
+          "ingredient": "cilantro"
+        },
+        {
+          "quantity": "4 oz / 113g",
+          "ingredient": "cream cheese"
+        },
+        {
+          "quantity": "1/4 cup",
+          "ingredient": "cream"
+        },
+        {
+          "quantity": "optional",
+          "ingredient": "sliced jalopenos"
+        },
+        {
+          "quantity": "optional",
+          "ingredient": "sliced avocados"
+        },
+        {
+          "quantity": "optional",
+          "ingredient": "sour cream"
+        },
+        {
+          "quantity": "optional",
+          "ingredient": "shredded cheese"
+        },
+        {
+          "quantity": "optional",
+          "ingredient": "crushed tortilla chips"
+        }
+      ],
+      "instructions": "Add chicken breasts to bottom of slow cooker, top with salt, pepper, cumin, oregano, chili powder, and cayenne pepper.\n\nTop with diced onion, minced garlic, great Northern beans, green chiles, corn, chicken broth and cilantro.  Stir.\n\nCover and cook on LOW for 8 hours or on HIGH for 3-4 hours.\n\nRemove chicken to large mixing bowl, shred, then return to slow cooker.\n\nAdd cream cheese and half and half, stir, then cover and cook on HIGH for 15 minutes, or until chili is creamy and slightly thickened.\n\nIf you want to ensure a smooth blend of the cream cheese, try adding the softened cream cheese to a small mixing bowl, then adding a few ladles of the chili from the slow cooker. Whisk until smooth, then stir that mixture into the slow cooker and proceed with adding the half and half and cooking on high for 15 minutes.\n\nStir well and serve with desired toppings.",
+      "imageUrl": "https://www.thechunkychef.com/wp-content/uploads/2016/11/Slow-Cooker-Creamy-White-Chicken-Chili-4-680x853.jpg",
+      "id": 2
+    },
+    {
+      "name": "Ground beef bulgogi",
+      "author": "Seonkyoung Longest",
+      "origin": "Korea (Republic of)",
+      "description": "Easy yet authentic Korean beef bulgogi!",
+      "ingredients": [
+        {
+          "quantity": "1lb / 450g",
+          "ingredient": "ground beef"
+        },
+        {
+          "quantity": "10 cloves",
+          "ingredient": "chopped garlic"
+        },
+        {
+          "quantity": "1",
+          "ingredient": "onion, diced"
+        },
+        {
+          "quantity": "4 tbsp",
+          "ingredient": "soy sauce"
+        },
+        {
+          "quantity": "2 tbsp",
+          "ingredient": "mirin"
+        },
+        {
+          "quantity": "2 tbsp",
+          "ingredient": "sugar"
+        },
+        {
+          "quantity": "1 tbsp",
+          "ingredient": "plum extract (or apricot jam)"
+        },
+        {
+          "quantity": "1/2 tsp",
+          "ingredient": "black pepper"
+        },
+        {
+          "quantity": "1 tbsp",
+          "ingredient": "cooking oil"
+        },
+        {
+          "quantity": "3 to 5",
+          "ingredient": "green onions, chopped"
+        },
+        {
+          "quantity": "1 tsp",
+          "ingredient": "sesame seeds"
+        },
+        {
+          "quantity": "1 tsp",
+          "ingredient": "sesame oil"
+        }
+      ],
+      "instructions": "Combine beef, garlic, onion, soy sauce, mirin, sugar, plum extract and black pepper in a large mixing bowl. You could marinate for 30 minutes but it’s not necessary because we are using ground beef.\nHeat a wok or large skillet over high heat, add cooking oil and swirl to coat. Add the ground beef mixture, stir fry and break down the meat into little pieces. Keep cooking until there’s no moisture and everything is fulled cooked, about 8 to 10 minutes. Stir occasionally.\nWhen you hear the sizzling and all the moisture from the beef is gone, toss in chopped green onions. Turn off the heat. Add sesame seeds and oil, toss one last time.\nServe on top of warm cooked rice, cauliflower rice, quinoa or any starch of your choice. Garnish with some sesame seeds and green onion if you’d like to. Enjoy!",
+      "imageUrl": "https://i1.wp.com/seonkyounglongest.com/wp-content/uploads/2019/09/Ground-Beef-Bulgogi7-copy.jpg?resize=663%2C1000&ssl=1",
+      "id": 3
+    },
+    {
+      "name": "Sausage soup",
+      "author": "Mikke",
+      "origin": "Finland",
+      "description": "Kind of easy, tastes good, and lasts a while.",
+      "ingredients": [
+        {
+          "quantity": "2 or 3 packages",
+          "ingredient": "sausages, Krakova/lamb/spiced/etc."
+        },
+        {
+          "quantity": "5 or 6",
+          "ingredient": "potatoes"
+        },
+        {
+          "quantity": "3 carrots",
+          "ingredient": "carrots"
+        },
+        {
+          "quantity": "2",
+          "ingredient": "onions"
+        },
+        {
+          "quantity": "2 cloves",
+          "ingredient": "garlic"
+        },
+        {
+          "quantity": "Other",
+          "ingredient": "root vegetables, depending on your preference"
+        },
+        {
+          "quantity": "",
+          "ingredient": "Salt to taste"
+        },
+        {
+          "quantity": "",
+          "ingredient": "Pepper to taste"
+        },
+        {
+          "quantity": "",
+          "ingredient": "Other spices depending on the mood"
+        },
+        {
+          "quantity": "1",
+          "ingredient": "bay leaf, because it does something"
+        },
+        {
+          "quantity": "1 cube",
+          "ingredient": "beef/chicken/veggie stock"
+        },
+        {
+          "quantity": "",
+          "ingredient": "Water to cover it all"
+        },
+        {
+          "quantity": "",
+          "ingredient": "Oil"
+        }
+      ],
+      "instructions": "I like a lot of sausages and stuff, so I use more packages. You can use less. Chop everything up into cubes or whatever. Cook the garlic and onions in oil first until they start to look tasty. Add in the sausages to brown them a little. Add all the veg and spices, fill with enough water to cover it all. Let it boil, stirring occasionally. Check the potatoes and carrots every now and then to see when they are done.  ",
+      "imageUrl": "https://hkruokatalo.studio.crasman.fi/pub/Kuvat/Reseptikuvat/Nakkikeitto_crop.tif?c=thumb_960x_540x",
+      "id": 4
+    },
+    {
+      "name": "Thai-style peanut butter chicken v1",
+      "author": "No idea",
+      "origin": "Thailand",
+      "description": "Peanuty, spicey, good!",
+      "ingredients": [
+        {
+          "quantity": "2 tbsp",
+          "ingredient": "rice vinegar"
+        },
+        {
+          "quantity": "2/3 cup",
+          "ingredient": "vegetable broth"
+        },
+        {
+          "quantity": "2 tbsp",
+          "ingredient": "soy sauce"
+        },
+        {
+          "quantity": "1 tbsp",
+          "ingredient": "ginger"
+        },
+        {
+          "quantity": "2 tsp",
+          "ingredient": "sriracha"
+        },
+        {
+          "quantity": "500g",
+          "ingredient": "chicken"
+        },
+        {
+          "quantity": "2 or 3",
+          "ingredient": "spring onions"
+        },
+        {
+          "quantity": "2 tbsp",
+          "ingredient": "sesame seeds"
+        },
+        {
+          "quantity": "1/2 cup",
+          "ingredient": "peanut butter"
+        },
+        {
+          "quantity": "",
+          "ingredient": "rice"
+        }
+      ],
+      "instructions": "This is an old recipe I wrote down, and I didn't write the instructions, so I don't remember all of the steps. Make rice, and additional veg if you want. Cook chicken. I guess mix everything else in a wok, then throw in the chicken. I like to add extra ginger and peanut butter. Server it all over rice and enjoy.",
+      "imageUrl": "https://www.theoriginaldish.com/wp-content/uploads/2021/02/Spicy-Thai-Peanut-Chicken-1-scaled.jpg",
+      "id": 5
+    },
+    {
+      "name": "Thai-style peanut butter chicken v2",
+      "author": "No idea",
+      "origin": "Thailand",
+      "description": "Peanuty, coconuty, good!",
+      "ingredients": [
+        {
+          "quantity": "500g",
+          "ingredient": "chicken"
+        },
+        {
+          "quantity": "2 or 3 cloves",
+          "ingredient": "garlic"
+        },
+        {
+          "quantity": "3 tbsp",
+          "ingredient": "ginger"
+        },
+        {
+          "quantity": "1 can (or more)",
+          "ingredient": "coconut milk"
+        },
+        {
+          "quantity": "1/2 cup",
+          "ingredient": "peanut butter"
+        },
+        {
+          "quantity": "1 tbsp",
+          "ingredient": "soy sauce"
+        },
+        {
+          "quantity": "1 tbsp",
+          "ingredient": "brown sugar"
+        },
+        {
+          "quantity": "",
+          "ingredient": "rice"
+        },
+        {
+          "quantity": "",
+          "ingredient": "veggies if you want"
+        }
+      ],
+      "instructions": "Similar to version 1, but less spicey and with a touch of coconut. Make rice, and additional veg if you want. Cook chicken. I guess mix everything else in a wok, then throw in the chicken. I like to add extra ginger and peanut butter. Add more coconut milk for a runnier sauce and more of a coconut punch. Server it all over rice and enjoy.",
+      "imageUrl": "https://www.wokandskillet.com/wp-content/uploads/2019/05/thai-peanut-chicken-12.jpg",
+      "id": 6
+    },
+    {
+      "name": "Slow Cooker Enchilada Quinoa",
+      "author": "La Creme de la Crumb",
+      "origin": "Mexico",
+      "description": "Healthy, easy Slow Cooker Enchilada Quinoa",
+      "ingredients": [
+        {
+          "quantity": "1 15oz / 425g can",
+          "ingredient": "black beans - drained and rinsed"
+        },
+        {
+          "quantity": "1 15oz / 425g can",
+          "ingredient": "corn - drained and rinsed"
+        },
+        {
+          "quantity": "2 15oz / 425g cans",
+          "ingredient": "medium red enchilada sauce - divided"
+        },
+        {
+          "quantity": "1 15oz / 425g can",
+          "ingredient": "diced fire roasted tomatoes and green chiles"
+        },
+        {
+          "quantity": "1 cup",
+          "ingredient": "uncooked quinoa"
+        },
+        {
+          "quantity": "1/2 cup",
+          "ingredient": "water"
+        },
+        {
+          "quantity": "4oz / 113g",
+          "ingredient": "cream cheese"
+        },
+        {
+          "quantity": "",
+          "ingredient": "salt and pepper to taste"
+        },
+        {
+          "quantity": "1 cup",
+          "ingredient": "shredded Mexican style cheese"
+        },
+        {
+          "quantity": "optional",
+          "ingredient": "chopped cilantro, diced tomatoes, diced avocado, sour cream"
+        }
+      ],
+      "instructions": "Add beans, corn, 1 can of enchilada sauce, diced tomatoes and chiles, quinoa, water, cream cheese, and salt and pepper to the slow cooker. Stir everything together.\nPour remaining can of enchilada sauce on top, then sprinkle with shredded cheese. Cover and cook 4-5 hours on high or 5-7 hours on low.\nUncover, top with tomatoes, avocados, sour cream, and chopped cilantro and serve.\n",
+      "imageUrl": "https://www.lecremedelacrumb.com/wp-content/uploads/2014/12/slow-cooker-enchilada-quinoa-5w.jpg",
+      "id": 7
     }
   ]
 }

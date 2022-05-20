@@ -8,17 +8,20 @@ const Recipes = ({ recipes, countries }) => {
     setSearch(e.target.value);
   };
 
+  const searchResults = () => {
+    if (search == "") {
+      return recipes;
+    } else {
+      return recipes.filter((recipe) => {
+        return recipe.name.toLowerCase().includes(search.toLowerCase());
+      });
+    }
+  };
+
   const getFlag = (origin) => {
     const country = countries.find((country) => country.name === origin);
-    console.log(country);
     return country ? <img className="flagBall" src={country.flag} /> : null;
   };
-  // render() {
-  //   const animalFilter = this.state.animals.filter((animal) => {
-  //     return animal.name
-  //       .toLowerCase()
-  //       .includes(this.state.search.toLowerCase());
-  //   });
 
   return (
     <section>
@@ -30,7 +33,7 @@ const Recipes = ({ recipes, countries }) => {
         />
       </p>
       <div className="recipeGallery">
-        {recipes.map((recipe) => (
+        {searchResults().map((recipe) => (
           <div key={recipe.id} className="galleryCard">
             <img
               className="galleryImage"

@@ -360,6 +360,7 @@ form button {
   box-shadow: 1px 1px 5px rgba(70, 70, 70, 0.678);
   background-color: whitesmoke;
   border-style: none;
+  cursor: pointer;
 }
 
 form textarea {

@@ -8,7 +8,7 @@ const RecipeCard = ({ recipes }) => {
   console.log(recipe);
 
   return (
-    <div className="recipeCard">
+    <section className="recipeCard">
       <div>
         <div key={recipe.id} className="recipeInfo">
           <div>
@@ -46,7 +46,7 @@ const RecipeCard = ({ recipes }) => {
           <p>{recipe.instructions}</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

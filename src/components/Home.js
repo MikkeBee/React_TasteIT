@@ -4,7 +4,7 @@ import MiddleBar from "./MiddleBar";
 
 const Home = () => {
   return (
-    <div>
+    <section>
       <div className="videoContainer">
         <video className="pizzaVideo" autoPlay loop muted>
           <source src={pizza} type="video/mp4" />
@@ -17,7 +17,7 @@ const Home = () => {
         </div>
       </div>
       <MiddleBar />
-    </div>
+    </section>
   );
 };
 
